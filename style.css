@@ -1,0 +1,429 @@
+.all {
+  background-color: #e4d6dd;
+}
+
+.navitems {
+  margin-left: 10%;
+}
+.top_layer{
+  padding-top: 30px;
+}
+
+.logo {
+  width: 140px;
+  height: 100px;
+}
+
+.heading {
+  font-size: 130px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 140px;
+  color: #ce4e4b;
+  text-shadow: 4px 4px 8px #ce4e4b;
+}
+
+.fir_box {
+  height: 500px;
+  background-image: url('pexels-karolina-grabowsk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second_box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.second_box_first {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.second_box_second {
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.statement {
+  font-size: 45px;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.heart {
+  width: 60px;
+  height: 60px;
+}
+
+.field {
+  font-family: 'Slabo 27px', serif;
+  font-size: 40px;
+}
+
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 7px;
+}
+
+.synopsis_heading {
+  font-size: 65px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  color: red;
+}
+
+.synop_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.t_one_one {
+  display: inline-grid;
+  margin-left: 20%;
+}
+
+.t_one_two {
+  display: inline-grid;
+}
+
+.t_one_three {
+  display: inline-grid;
+}
+
+.heart_btwn {
+  height: 200px;
+  width: 200px;
+}
+
+.love_sc {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Akronim', cursive;
+  color: red;
+}
+
+.name_ing {
+  text-align: center;
+  font-family: 'Akronim', cursive;
+  font-size: 30px;
+  color: red;
+}
+
+.t_one {
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 4px ridge red;
+  border-style:
+}
+
+.t_two {
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 4px ridge red;
+}
+
+.t_three {
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 4px ridge red;
+}
+
+.foot {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.foot_logo {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.foot_compname {
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+  color: red;
+  display: inline-block;
+}
+
+.per_disp {
+  font-size: 45px;
+  font-weight: bolder;
+  color: red;
+}
+
+.quoteone {
+  width: 50px;
+  height: 50px;
+}
+.navnames{
+  font-size: 40px;
+}
+.hamburger{
+  margin-right: 100px;
+  width: 80px;
+  height: 50px;
+  border:4px solid black;
+}
+.hamburgerone{
+  border: 3px solid black;
+}
+/**this is for styles **/
+.profile{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+.t_col_one{
+margin-left: 17%;
+}
+
+.about_info{
+  padding-top: 80px;
+  font-size: 30px;
+}
+.mail{
+  text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.foot{
+  margin-top: 80px;
+  padding-top: 50px;
+}
+.names{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.names_rep{
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+}
+.main{
+  background-color: white;
+}
+
+
+@media screen and (max-width:991px) {
+  .heading {
+      font-size: 100px;
+      padding-top: 220px;
+      text-align: center;
+    }
+    .all {
+      background-color: white;
+    }
+  .second_box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid red;
+    padding: 5px;
+  }
+  .hamburger{
+    margin-right: 100px;
+    width: 80px;
+    height: 50px;
+  }
+  .hamburgerone{
+    border-style:  solid;
+    border-width: thick;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fir_box {
+    height: 500px;
+    background-image: url('pexels-karolina-grabowsk_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .statement {
+    margin-bottom: 70px;
+  }
+
+  .synop_two {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 130px;
+  }
+
+  .synop_twon {
+    margin-left: 130px;
+  }
+  /**this is for styles **/
+  .profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+  }
+  .t_col_one{
+  margin-left: 17%;
+  }
+
+  .about_info{
+    padding-top: 80px;
+    font-size: 50px;
+  }
+  .mail{
+    text-align: center;
+      font-size: 50px;
+      font-style: italic;
+  }
+  .foot{
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+  .names{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .names_rep{
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  }
+  .main{
+    background-color: white;
+  }
+
+
+}
+
+
+@media screen and (max-width:767px) {
+  .heading {
+    font-size: 60px;
+    padding-top: 120px;
+    text-align: center;
+  }
+  .all {
+    background-color: white;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fir_box {
+    height: 300px;
+    background-image: url('pexels-karolina-grabowsk_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .statement {
+    margin-bottom: 70px;
+  }
+  .synop_two {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 0;
+  }
+
+  .synop_twon {
+    margin-left:0;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .heading {
+    font-size: 48px;
+    padding-top: 120px;
+    text-align: center;
+  }
+  .all {
+    background-color: white;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fir_box {
+    height: 300px;
+    background-image: url('pexels-karolina-grabowsk_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .statement {
+    margin-bottom: 70px;
+  }
+
+  .synop_two {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+
+  .synop_twon {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .heading {
+    font-size: 48px;
+    padding-top: 120px;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+  .all {
+    background-color: white;
+  }
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.fir_box {
+  height: 300px;
+  background-image: url('pexels-karolina-grabowsk_small.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.statement {
+  margin-bottom: 70px;
+}
+
+.synop_two {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.synop_twon {
+  margin-left: 50px;
+ }
+}
